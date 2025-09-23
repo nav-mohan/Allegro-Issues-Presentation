@@ -16,28 +16,6 @@ This was also confirmed by directly executing the model parameter file (.pth fil
 # Energy vs lattice-constant for FCC  
 Some of the plots span very wide energy scales so in some places I've resorted to manually inspecting the tabular data. 
 
-## Hydrogen FCC
-It has a local minima at `alat=2.6` with negative energy of `-56eV` but I'm not confident if the optimization method could pick it up.\
-It also has a local minima at `alat=4.5` with positive energy `+2.1eV`.\
-The long-range energy settles to `-122eV`
-<img width = "1280px" src = "plots/hydrogen-fcc-0.png">
-<img width = "1280px" src = "plots/hydrogen-fcc-1.png">
-
-
-| alat (Å) | energy (eV)     |
-|----------|-----------------|
-| 2.1      | -1.6056e+09     |
-| 2.2      | -2.9757e+08     |
-| 2.3      | -1.0302e+07     |
-| 2.4      | -3.3714e+04     |
-| 2.5      | 1.6316e+02      |
-|**2.6**      | **-5.6520e+01**|
-| 2.7      | -1.9958e+01     |
-| 2.8      | -1.1332e+01     |
-| 2.9      | -1.5774e+01     |
-| 3.0      | -1.9786e+00     |
-
-
 ## Carbon FCC
 Local Energy minima at `alat = 1.70Å` of `-4.18 10^21 eV)`\
 This is also the equilibrium `alat` for Carbon FCC during the Forces-Numerical-Derivative check. 
@@ -58,6 +36,7 @@ This is also the equilibrium `alat` for Carbon FCC during the Forces-Numerical-D
 <tr><td>1.0 </td> <td>-6.48e+15</td></tr>
 </table>
 
+<img width = "1280px" src = "plots/carbon-fcc-2.png">
 <img width = "1280px" src = "plots/carbon-fcc-1.png">
 
 <table>
@@ -82,41 +61,63 @@ To check whether this was due to FCC structure we also tested Carbon Diamond
 It exhibits large negative energies at small distances, and settles down to `-7.63eV` at large distances. It has a local minima at `alat = 4.5` whereas expeimental results show `alat = 3.5`. 
 
 
+## Hydrogen FCC
+It has a local minima at `alat=2.6` with negative energy of `-56eV` but I'm not confident if the optimization method could pick it up.\
+It also has a local minima at `alat=4.5` with positive energy `+2.1eV`.\
+The long-range energy settles to `-122eV`
+<img width = "1280px" src = "plots/hydrogen-fcc-0.png">
+<img width = "1280px" src = "plots/hydrogen-fcc-1.png">
+
+
+| alat (Å) | energy (eV)     |
+|----------|-----------------|
+| 2.1      | -1.6056e+09     |
+| 2.2      | -2.9757e+08     |
+| 2.3      | -1.0302e+07     |
+| 2.4      | -3.3714e+04     |
+| 2.5      | 1.6316e+02      |
+|**2.6**      | **-5.6520e+01**|
+| 2.7      | -1.9958e+01     |
+| 2.8      | -1.1332e+01     |
+| 2.9      | -1.5774e+01     |
+| 3.0      | -1.9786e+00     |
 
 
 
-## Nitrogen
+## Nitrogen FCC
 <img width = "1280px" src = "plots/nitrogen-fcc-0.png">
 <img width = "1280px" src = "plots/nitrogen-fcc-1.png">
 
 
-## Oxygen
+## Oxygen FCC
 <img width = "1280px" src = "plots/oxygen-fcc-0.png">
 <img width = "1280px" src = "plots/oxygen-fcc-1.png">
 
 
-## Sulphur
+## Sulphur FCC
 <img width = "1280px" src = "plots/sulphur-fcc-0.png">
 <img width = "1280px" src = "plots/sulphur-fcc-1.png">
 
 
-## Mixed
+## Mixed FCC
 <img width = "1280px" src = "plots/mixed-fcc-0.png">
 
 
-## FCC simulation results for Allegro 
+# FCC simulation results for Allegro 
 - All species have large negative energies at small distances.
 - All species settled down to `-122eV` at large distances. 
 
-## Magnitude of errmax in FNC check for Carbon
+
+# Magnitude of errmax in FND check for Carbon
 Earlier when I was running the FND check, the derivative test was failing at alat = 1.7. 
 But it's passing when I run it in isolation at alat = 1.7. Must re-run the FND check to confirm this behaviour. 
 For carbon, the equilibtrium alat was 1.7Å. At that distance, the FND check would fail rescaling operations and the absolute values of the errors in force are of the order `10^13 eV/Å`. The relative values of errors are of the order of `10^-9` because the forces are of the order `10^22 eV/Å`
 <img width = "1280px" src = "plots/carbon-derivative.png">
 
 
-## Currently testing
+# Currently testing
 - At what **N** does the N-body system's energy blow up to negative infinity? 
 	- energy vs bond-length for triatomic molecules. 
 
-visualize dump from ASE of equilibrium FCC carbon
+<!-- # FCC lattice -->
+<!-- visualize dump from ASE of equilibrium FCC carbon -->
