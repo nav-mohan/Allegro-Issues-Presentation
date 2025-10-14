@@ -1,3 +1,8 @@
+# "Good" Lattice Constant Range-Finder
+<img width = "1280px" src = "plots/derivative-test-C-FCC-ALLEGRO-10-600.png">
+<img width = "1280px" src = "plots/alat-range-finder-C-FCC-ALLEGRO-10-600.png">
+
+
 # Energy vs bond-length relation
 
 To confirm that our code (KIM-API wrapper) agrees with the original paper's results.\
@@ -9,8 +14,6 @@ This was also confirmed by directly executing the model parameter file (.pth fil
 <img width = "1280px" src = "plots/oxygen-dimer-kim.png">
 <img width = "1280px" src = "plots/sulphur-dimer-kim.png">
 <img width = "1280px" src = "plots/diatomic-energy-alat-ALLEGRO-0-3.png">
-
-
 
 
 # Energy vs lattice-constant for FCC  
