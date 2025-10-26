@@ -1,7 +1,39 @@
 # "Good" Lattice Constant Range-Finder
-<img width = "1280px" src = "plots/derivative-test-C-FCC-ALLEGRO-10-600.png">
-<img width = "1280px" src = "plots/alat-range-finder-C-FCC-ALLEGRO-10-600.png">
+<h3> Hydrogen </h3>
+<div style = "display:flex; flex-direction:row">
+<img width = "640px" src = "plots/derivative-test-H-FCC-ALLEGRO-10-600.png">
+<img width = "640px" src = "plots/alat-range-finder-H-FCC-ALLEGRO-10-600.png">
+</div>
 
+<h3> Carbon </h3>
+<div style = "display:flex; flex-direction:row">
+<img width = "640px" src = "plots/derivative-test-C-FCC-ALLEGRO-10-600.png">
+<img width = "640px" src = "plots/alat-range-finder-C-FCC-ALLEGRO-10-600.png">
+</div>
+
+<h3> Nitrogen </h3>
+<div style = "display:flex; flex-direction:row">
+<img width = "640px" src = "plots/derivative-test-N-FCC-ALLEGRO-10-600.png">
+<img width = "640px" src = "plots/alat-range-finder-N-FCC-ALLEGRO-10-600.png">
+</div>
+
+<h3> Oxygen </h3>
+<div style = "display:flex; flex-direction:row">
+<img width = "640px" src = "plots/derivative-test-O-FCC-ALLEGRO-10-600.png">
+<img width = "640px" src = "plots/alat-range-finder-O-FCC-ALLEGRO-10-600.png">
+</div>
+
+<h3> Sulphur </h3>
+<div style = "display:flex; flex-direction:row">
+<img width = "640px" src = "plots/derivative-test-S-FCC-ALLEGRO-10-600.png">
+<img width = "640px" src = "plots/alat-range-finder-S-FCC-ALLEGRO-10-600.png">
+</div>
+
+<h3> Mixed </h3>
+<div style = "display:flex; flex-direction:row">
+<img width = "640px" src = "plots/derivative-test-HCNOS-FCC-ALLEGRO-10-600.png">
+<img width = "640px" src = "plots/alat-range-finder-HCNOS-FCC-ALLEGRO-10-600.png">
+</div>
 
 # Energy vs bond-length relation
 
