@@ -1,6 +1,17 @@
 # "Good" Lattice Constant Range-Finder
+
+<h3> Other models and species </h3>
+ 
+<img width = "1280px" src = "plots/alat-range-finder-C-FCC-MACE-10-600.png" >
+<img width = "1280px" src = "plots/alat-range-finder-Si-FCC-MACE-10-600.png" >
+<img width = "1280px" src = "plots/alat-range-finder-HCNOS-FCC-MACE-10-600.png" >
+<img width = "1280px" src = "plots/alat-range-finder-Si-FCC-StillingerWebber-10-600.png" >
+
+</div>
+
 <h3> Hydrogen </h3>
 <div style = "display:flex; flex-direction:row">
+<img width = "640px" src = "plots/derivative-test-H-FCC-ALLEGRO-10-600.png">
 <img width = "640px" src = "plots/derivative-test-H-FCC-ALLEGRO-10-600.png">
 <img width = "640px" src = "plots/alat-range-finder-H-FCC-ALLEGRO-10-600.png">
 </div>
