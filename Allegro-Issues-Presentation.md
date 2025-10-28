@@ -12,7 +12,6 @@
 <h3> Hydrogen </h3>
 <div style = "display:flex; flex-direction:row">
 <img width = "640px" src = "plots/derivative-test-H-FCC-ALLEGRO-10-600.png">
-<img width = "640px" src = "plots/derivative-test-H-FCC-ALLEGRO-10-600.png">
 <img width = "640px" src = "plots/alat-range-finder-H-FCC-ALLEGRO-10-600.png">
 </div>
 
