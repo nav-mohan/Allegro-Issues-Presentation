@@ -12,6 +12,9 @@
 <img width = "1280px" src = "plots/alat-range-finder-Si-FCC-StillingerWebber-10-600.png"> 
 <img width = "1280px" src = "plots/alat-range-finder-Si-FCC-SW_LeeHwang-10-600.png"> 
 <img width = "1280px" src = "plots/alat-range-finder-CdTe-FCC-SW_WangStroudMarkworth-10-600.png"> 
+<img width = "1280px" src = "plots/alat-range-finder-Al-FCC-EAMCubinNaturalSpline-10-600.png"> 
+
+
 
 <h3> Hydrogen </h3>
 <div style = "display:flex; flex-direction:row">
